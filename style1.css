@@ -1,0 +1,61 @@
+.wrapper > div{
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    /* opacity: 0.5; */
+    margin: 2px;
+    padding: 10px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    /* grid-template-rows: repeat(10, 1fr); */
+    
+    
+}
+
+.one{
+    grid-column: 1/4;
+    
+}
+
+.five{
+    
+   
+}
+
+.eight{
+    grid-column: 1/4;
+    
+}
+
+h1, h2{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+}
+
+video{
+        
+    position: fixed;
+    /* right: 0; */
+    /* bottom: 0; *; */
+    width: 100%;/   
+
+
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    /* padding: 20px; */
+  }
